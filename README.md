@@ -138,12 +138,3 @@ model.save('acne_model.h5')
 - If your model is in PyTorch or ONNX, either export to TensorFlow/Keras or adapt `app.py` to use the appropriate runtime.
 - Consider adding a `requirements.txt` (run `pip freeze > requirements.txt` in your venv) for reproducible installs.
 
-## Need help?
-
-If you want, I can:
-
-- update `app.py` to safely load models when missing (so the app won't crash),
-- create a `requirements.txt`, or
-- help convert/fit your model into a Keras `.h5` file.
-
-Please tell me what type of model file you have (HDF5 `.h5`, TensorFlow SavedModel directory, PyTorch `.pt`, or ONNX `.onnx`) and I will give exact conversion/loading steps.
